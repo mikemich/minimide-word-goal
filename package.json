@@ -1,0 +1,13 @@
+{
+  "name": "word-goal",
+  "displayName": "Word Goal",
+  "description": "Words in the current file, with a goal, in the status bar. Great for Markdown writing.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "access": "sandboxed",
+  "permissions": [],
+  "configSchema": {
+    "goal": { "type": "number", "default": 500, "title": "Word Goal" }
+  },
+  "license": "MIT"
+}
